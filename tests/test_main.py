@@ -24,7 +24,7 @@ def test_hello():
     data = response.json()
 
     assert data["message"] == "Hello from my DEV branch!"
-    assert data["version"] == "999.0.0"
+    assert data["version"] == "2.0.0"
 
 
 def test_status():
