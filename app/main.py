@@ -17,8 +17,8 @@ def root():
 @app.get("/api/hello")
 def hello():
     return {
-        "message": "Hello from FastAPI",
-        "version": "1.0.0"
+        "message": "Hello from my DEV branch!",
+        "version": "2.0.0"
     }
 
 
